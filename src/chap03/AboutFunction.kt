@@ -12,6 +12,11 @@ fun main() {
     addUser("gentledot")
     namedParam(x = 200, z = 100)
     handleVarargs(1, 2, 3, 4)
+
+    val a = fun(x: Int, y: Int): Int = x + y
+    val b = fun(x: Int, y: Int): Int {
+        return x + y
+    }
 }
 
 private fun addUser(name: String, email: String = "defaultEmail") {
