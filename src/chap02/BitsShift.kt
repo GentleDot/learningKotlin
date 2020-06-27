@@ -1,7 +1,5 @@
 package chap02
 
-import chap03.getLongString
-
 fun main() {
     val num = 4
     val negativeNum = -4
