@@ -26,7 +26,7 @@ class AnotherBird {
 
     init {
         println("====== 초기화 블록 시작 ======")
-        println("이름과 색상 확인 : 이름 = $name, 색상 = $color")
+//        println("이름과 색상 확인 : 이름 = $name, 색상 = $color")
         println("====== 초기화 블록 종료 ======")
     }
 
