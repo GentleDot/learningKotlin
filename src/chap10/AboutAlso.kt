@@ -32,7 +32,8 @@ fun main() {
         result.mkdir()
         return result
     }
-//    fun simpleMakeDir(path: String) = File(path).also { it.mkdir() }
+
+    //    fun simpleMakeDir(path: String) = File(path).also { it.mkdir() }
     fun simpleMakeDir(path: String) = path.let { File(it) }.also { it.mkdir() }
 
 }
